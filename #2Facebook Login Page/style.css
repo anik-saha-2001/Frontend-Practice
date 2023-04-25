@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #f0f2f5;
+}
+
+
+.container{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.container h1{
+    font-size: 80px;
+    color: #1877f2;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container h2{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 28px;
+   font-weight: normal;
+   line-height: 32px;
+   width: 500px;
+}
+
+header{
+    width: 480px;
+    height: 430px;
+    background-color: #fff;
+    position: absolute;
+    top: 22%;
+    left: 58%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+.box input{
+    width: 85%;
+    margin: 18px 18px 0;
+    padding: 13px 18px;
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.link1{
+    margin: 22px 18px 0;
+    background-color: #1877f2;
+    padding: 13px 18px;
+    border-radius: 10px;
+}
+
+.link1 a{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;  
+    text-decoration: none;
+}
+.link2 a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #1877f2;
+}
+.link2:hover{
+    text-decoration: underline;
+    color: #1877f2;
+}
+
+hr{ 
+    border-bottom: none;
+    width: 90%;
+    margin: 10px auto;
+    opacity: 0.5;
+}
+
+.link3{
+    margin: 40px 100px;
+    background-color: #42B72A;
+    border-radius: 10px;
+}
+
+.link3:hover{
+    background-color: hwb(111 13% 46%);
+}
+.link3 a{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;  
+    text-decoration: none;
+}
+
+.createAPage{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.createAPage a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.createAPage a:hover{
+    text-decoration: underline;
+}
