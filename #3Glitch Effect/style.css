@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: grey;
+    height: 100vh;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+h1:hover{
+    text-shadow: red -3px 0, cyan 3px 0;
+}
